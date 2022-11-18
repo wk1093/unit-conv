@@ -13,6 +13,7 @@ autoconv.addEventListener("keyup", function(event) {
         var val = autoconv.value.split(' ');
         var num = val[0];
         var unit = val[1];
+        // Thanks GitHub Copilot
         var conv = {
             // Length
             'cm': {
