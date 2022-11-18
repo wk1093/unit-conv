@@ -27,7 +27,6 @@ function getTypeOfUnit(val) {
     }
     return false;
 }
-
 autoconv.addEventListener("keyup", function(event) {
     var verify = /([0-9]+|[0-9]+\.[0-9]+)\s*(.*)+/;
     if (verify.test(autoconv.value) && autoconv.value != "" && event.keyCode != 13) {
@@ -51,3 +50,4 @@ autoconv.addEventListener("keyup", function(event) {
         }
     }
 });
+autoconvresult = "";
