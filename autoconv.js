@@ -50,4 +50,4 @@ autoconv.addEventListener("keyup", function(event) {
         }
     }
 });
-autoconvresult = "";
+autoconvresult.innerHTML = '';

@@ -6,6 +6,7 @@ String.prototype.toProperCase = function () {
 
 var autounits = document.getElementById('autounits');
 
+autounits.innerHTML = '';
 for (var i in unitlist) {
     autounits.innerHTML += '<h3>' + i.toProperCase() + '</h3><ul>';
     for (var j in unitlist[i]) {
