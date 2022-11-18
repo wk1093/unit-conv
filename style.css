@@ -37,6 +37,9 @@ h1 {
     text-align: center;
     
 }
+h1 a {
+    font-size: 30px;
+}
 input {
     border: 3px solid #282828;
     border-radius: 5px;
